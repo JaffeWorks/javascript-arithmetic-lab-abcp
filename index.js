@@ -20,8 +20,3 @@ function divide(a, b){
 function  makeInt(n){
   parseInt(n, 10)
 }
-
-describe('makeInt(n)', function() {
-  it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(a)
-  })

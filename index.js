@@ -13,7 +13,6 @@ function inc(n){
 function inc(n){
   return n -= 1
 }
-
 function divide(a, b){
   return a / b
 }

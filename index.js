@@ -18,7 +18,7 @@ function divide(a, b){
   return a / b
 }
 function  makeInt(n){
-  parseInt(n)
+  parseInt(n, 10)
 }
 
 describe('makeInt(n)', function() {
